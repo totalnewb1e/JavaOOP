@@ -15,7 +15,6 @@ public abstract class AbstractGame implements Game {
         this.sizeWord = sizeWord;
         this.maxTry = maxTry;
         computerWord = generateWord();
-        System.out.println("comp:  " + computerWord);
         this.gameStatus = GameStatus.START;
         this.currentTry = 0;
     }
